@@ -1,0 +1,28 @@
+group 'com.github.yashap'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+}
+
+task run(type: JavaExec) {
+    description = "Run a main class. Example: gradle run -PmainClass=examples.chapter01.FizzBuzz -PappArgs=11,12"
+    group = "Run"
+
+    main = project.hasProperty("mainClass") ? mainClass : "examples.chapter01.HelloWorld"
+    classpath = sourceSets.main.runtimeClasspath
+    args = project.hasProperty("appArgs") ? appArgs.tokenize(',') : []
+}
+
+test {
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+}
