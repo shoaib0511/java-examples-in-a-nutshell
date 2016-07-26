@@ -1,12 +1,13 @@
 package examples.chapter01;
 
-import static examples.chapter01.Reverse.reverse;
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import static examples.chapter01.Reverse.reverse;
+import static org.junit.Assert.assertEquals;
 
 public class ReverseTest {
 

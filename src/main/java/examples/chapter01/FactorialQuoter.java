@@ -1,9 +1,9 @@
 package examples.chapter01;
 
-import static examples.chapter01.FactorialBig.factorial;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+
+import static examples.chapter01.FactorialBig.factorial;
 
 /**
  * To build and run:

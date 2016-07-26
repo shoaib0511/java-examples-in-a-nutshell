@@ -1,10 +1,11 @@
 package examples.chapter01;
 
-import static examples.chapter01.FactorialBig.factorial;
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import java.math.BigInteger;
+
+import static examples.chapter01.FactorialBig.factorial;
+import static org.junit.Assert.assertEquals;
 
 public class FactorialBigTest {
 

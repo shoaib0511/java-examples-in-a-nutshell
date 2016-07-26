@@ -1,9 +1,10 @@
 package examples.chapter01;
 
+import org.junit.Test;
+
 import static examples.chapter01.Factorial.factorial;
 import static examples.chapter01.Factorial.factorialRec;
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
 public class FactorialTest {
 

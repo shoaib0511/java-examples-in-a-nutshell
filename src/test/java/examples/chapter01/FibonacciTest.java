@@ -1,11 +1,12 @@
 package examples.chapter01;
 
-import static examples.chapter01.Fibonacci.fibonacci;
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
+
+import static examples.chapter01.Fibonacci.fibonacci;
+import static org.junit.Assert.assertEquals;
 
 public class FibonacciTest {
 

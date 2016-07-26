@@ -1,8 +1,9 @@
 package examples.chapter01;
 
+import org.junit.Test;
+
 import static examples.chapter01.Sieve.largestPrimeUpTo;
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
 public class SieveTest {
 

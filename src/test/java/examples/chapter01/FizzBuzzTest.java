@@ -1,13 +1,14 @@
 package examples.chapter01;
 
-import static examples.chapter01.FizzBuzz.fizzBuzz;
-import static examples.chapter01.FizzBuzz.fizzBuzzSwitch;
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import static examples.chapter01.FizzBuzz.fizzBuzz;
+import static examples.chapter01.FizzBuzz.fizzBuzzSwitch;
+import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
   private final List<String> FIZZ_BUZZ_35 = Arrays.asList(

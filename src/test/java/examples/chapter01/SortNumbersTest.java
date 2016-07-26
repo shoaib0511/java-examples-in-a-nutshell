@@ -1,8 +1,9 @@
 package examples.chapter01;
 
+import org.junit.Test;
+
 import static examples.chapter01.SortNumbers.sortInPlace;
 import static org.junit.Assert.assertArrayEquals;
-import org.junit.Test;
 
 public class SortNumbersTest {
 

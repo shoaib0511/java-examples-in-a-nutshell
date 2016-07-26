@@ -1,7 +1,7 @@
 package examples.chapter01;
 
-import java.util.ArrayList;
 import java.math.BigInteger;
+import java.util.ArrayList;
 
 public class FactorialBig {
   protected static ArrayList<BigInteger> table = new ArrayList<>();

@@ -1,9 +1,10 @@
 package examples.chapter01;
 
+import org.junit.Test;
+
 import static examples.chapter01.FactorialCached.factorial;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
-import org.junit.Test;
 
 public class FactorialCachedTest {
 

@@ -1,6 +1,7 @@
 package examples.chapter01;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
  * To build and run:
