@@ -12,7 +12,7 @@ public class ReverseTest {
 
   @Test
   public void reverseShouldReverseStringsInAList() {
-    testCase(Collections.emptyList(), Collections.emptyList());
+    testCase(Collections.<String>emptyList(), Collections.<String>emptyList());
     testCase(Collections.singletonList(""), Collections.singletonList(""));
     testCase(Collections.singletonList("a"), Collections.singletonList("a"));
     testCase(Collections.singletonList("ab"), Collections.singletonList("ba"));
@@ -32,6 +32,6 @@ public class ReverseTest {
   }
 
   private static void testCase(List<String> input, List<String> expected) {
-    assertEquals("reverse(" + input + ") should be " + expected, expected, reverse(input));
+    assertEquals("reverse(" + input + ")", expected, reverse(input));
   }
 }

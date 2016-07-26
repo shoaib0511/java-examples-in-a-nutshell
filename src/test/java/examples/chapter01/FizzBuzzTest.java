@@ -17,10 +17,10 @@ public class FizzBuzzTest {
 
   @Test
   public void fizzBuzzShouldGenerateFizzBuzzSequences() {
-    assertEquals("fizzBuzz(0) should be []", Collections.emptyList(), fizzBuzz(0));
-    assertEquals("fizzBuzz(1) should be [1]", Collections.singletonList("1"), fizzBuzz(1));
-    assertEquals("fizzBuzz(2) should be [1,2]", Arrays.asList("1", "2"), fizzBuzz(2));
-    assertEquals("fizzBuzz(35) should be " + FIZZ_BUZZ_35, FIZZ_BUZZ_35, fizzBuzz(35));
+    assertEquals("fizzBuzz(0)", Collections.emptyList(), fizzBuzz(0));
+    assertEquals("fizzBuzz(1)", Collections.singletonList("1"), fizzBuzz(1));
+    assertEquals("fizzBuzz(2)", Arrays.asList("1", "2"), fizzBuzz(2));
+    assertEquals("fizzBuzz(35)", FIZZ_BUZZ_35, fizzBuzz(35));
   }
 
   @Test(expected = IllegalArgumentException.class)
@@ -30,10 +30,10 @@ public class FizzBuzzTest {
 
   @Test
   public void fizzBuzzSwitchShouldGenerateFizzBuzzSequences() {
-    assertEquals("fizzBuzzSwitch(0) should be []", Collections.emptyList(), fizzBuzzSwitch(0));
-    assertEquals("fizzBuzzSwitch(1) should be [1]", Collections.singletonList("1"), fizzBuzzSwitch(1));
-    assertEquals("fizzBuzzSwitch(2) should be [1,2]", Arrays.asList("1", "2"), fizzBuzzSwitch(2));
-    assertEquals("fizzBuzzSwitch(35) should be " + FIZZ_BUZZ_35, FIZZ_BUZZ_35, fizzBuzzSwitch(35));
+    assertEquals("fizzBuzzSwitch(0)", Collections.emptyList(), fizzBuzzSwitch(0));
+    assertEquals("fizzBuzzSwitch(1)", Collections.singletonList("1"), fizzBuzzSwitch(1));
+    assertEquals("fizzBuzzSwitch(2)", Arrays.asList("1", "2"), fizzBuzzSwitch(2));
+    assertEquals("fizzBuzzSwitch(35)", FIZZ_BUZZ_35, fizzBuzzSwitch(35));
   }
 
   @Test(expected = IllegalArgumentException.class)
