@@ -13,7 +13,7 @@ public class FibonacciThreeTermsTest {
 
   @Test
   public void fibonacciShouldComputeFibonacciSequences() {
-    assertArrayEquals(array(Collections.emptyList()), fibonacci(0));
+    assertArrayEquals(new int[0], fibonacci(0));
     assertArrayEquals(array(Collections.singletonList(1)), fibonacci(1));
     assertArrayEquals(array(Arrays.asList(1, 1)), fibonacci(2));
     assertArrayEquals(array(Arrays.asList(1, 1, 2)), fibonacci(3));
@@ -27,7 +27,7 @@ public class FibonacciThreeTermsTest {
     fibonacci(-1);
   }
 
-  private static int[] array(List<Integer> xs) {
+  private static <T> int[] array(List<Integer> xs) {
     int[] out = new int[xs.size()];
 
     for(int idx = 0; idx < out.length; idx++) {
